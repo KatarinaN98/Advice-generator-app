@@ -18,6 +18,15 @@ The Advice Generator App allows users to:
 - See hover states for all interactive elements on the page.
 - Generate a new piece of advice by clicking the dice icon.
 
+### Screenshots
+
+#### Desktop View:
+![Desktop Screenshot](./images/desktop-view.jpg)
+
+#### Mobile View:
+![Mobile Screenshot](./images/mobile-view.jpg)
+
+
 ## Built With
 
 - HTML
