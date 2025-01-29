@@ -1,0 +1,65 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.advice-card {
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 450px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: hsl(193, 38%, 86%);
+}
+
+#advice-id {
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: hsl(150, 100%, 66%); /* Green color for the advice ID */
+}
+
+#advice-text {
+    font-size: 28px;
+    margin: 20px 0;
+    font-weight: 800;
+    color: hsl(193, 38%, 86%);
+}
+
+.advice-line {
+    border-top: 1px solid hsl(193, 38%, 86%);
+    margin: 20px 0;
+}
+
+#dice-btn {
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#dice-btn:hover {
+    background-color: hsl(150, 100%, 50%); /* Lighter green on hover */
+}
+
+#dice-btn img {
+    width: 20px;
+}
